@@ -3,3 +3,98 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.visa {
+  background-color: #0282f9;
+  color: white;
+  padding: 3px 0;
+}
+.visa .right {
+  text-align: right;
+  font-size: 10px;
+}
+.visa .right span {
+  padding-left: 50px;
+}
+.visa .right #little {
+  vertical-align: super;
+  font-size: 8px;
+  padding-left: 0;
+}
+.visa .right i {
+  font-size: 8px;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 5%;
+}
+
+.link #active {
+  padding: 0;
+  margin: 0 15px;
+  padding-bottom: 26px;
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+}
+.link li {
+  display: inline;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+.link li #arrow {
+  vertical-align: text-top;
+  color: #0282f9;
+}
+
+.search {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #0282f9;
+  padding-left: 40%;
+  font-size: 13px;
+}
+.search label {
+  border-bottom: 2px solid #0282f9;
+  font-size: 12px;
+}
+
+.jumbotron {
+  background-image: url(../img/jumbotron.jpg);
+  height: 300px;
+  background-size: cover;
+}
