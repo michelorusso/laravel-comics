@@ -1,0 +1,69 @@
+main {
+    background-color: #1c1c1c;
+}
+
+// Current
+.current {
+    background-color: $brand-primary-color;
+    color: white;
+    text-align: center;
+    width: 170px;
+    position: relative;
+    left: 0;
+    top: -18px;
+
+    h2 {
+        
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+}
+
+// Comics
+.comics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+// single-comic
+.single-comic {
+    min-width: calc( 100% / 7 );
+    max-width: calc( 100% / 7 );
+    margin: 0 10px;
+    
+
+    .poster {
+        overflow: hidden;
+        height: 135px;
+    }
+
+    .title-comic {
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding-top: 13px;
+        padding-bottom: 30px
+    }
+}
+
+// button
+.click {
+    text-align: center;
+
+    button {
+        padding: 10px 35px;
+        font-size: 8px;
+        color: white;
+        font-weight: 600;
+        background-color: $brand-primary-color;
+        border: none;
+        margin-bottom: 25px;
+    }
+}
+
+// Option
+.option {
+    background-color: $brand-primary-color;
+}

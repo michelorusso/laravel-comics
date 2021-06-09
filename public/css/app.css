@@ -98,3 +98,62 @@ nav {
   height: 300px;
   background-size: cover;
 }
+
+main {
+  background-color: #1c1c1c;
+}
+
+.current {
+  background-color: #0282f9;
+  color: white;
+  text-align: center;
+  width: 170px;
+  position: relative;
+  left: 0;
+  top: -18px;
+}
+.current h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+.comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-comic {
+  min-width: calc( 100% / 7 );
+  max-width: calc( 100% / 7 );
+  margin: 0 10px;
+}
+.single-comic .poster {
+  overflow: hidden;
+  height: 135px;
+}
+.single-comic .title-comic {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 13px;
+  padding-bottom: 30px;
+}
+
+.click {
+  text-align: center;
+}
+.click button {
+  padding: 10px 35px;
+  font-size: 8px;
+  color: white;
+  font-weight: 600;
+  background-color: #0282f9;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.option {
+  background-color: #0282f9;
+}
