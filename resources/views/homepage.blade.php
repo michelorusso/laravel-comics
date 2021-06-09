@@ -17,7 +17,7 @@
             <div class="single-comic">
 
                 <div class="poster">
-                    <img src="{{$comic["thumb"]}}" alt="{{$comic["title"]}}">
+                    <a href=""><img src="{{$comic["thumb"]}}" alt="{{$comic["title"]}}"></a>
                 </div>
 
                 {{-- title-comic --}}
@@ -40,14 +40,41 @@
         </div>
         {{-- end button --}}
 
+    </div>
+
         {{-- Option --}}
         <div class="option">
 
+            <div class="container">
+
+                <div class="single-opt">
+                    <img src="{{asset("img/buy-comics-digital-comics.png")}}" alt="">
+                    <span>Digital Comics</span>
+                </div>
+    
+                <div class="single-opt">
+                    <img src="{{asset("img/buy-comics-merchandise.png")}}" alt="">
+                    <span>DC Merchandise</span>
+                </div>
+    
+                <div class="single-opt">
+                    <img src="{{asset("img/buy-comics-subscriptions.png")}}" alt="">
+                    <span>Subscription</span>
+                </div>
+    
+                <div class="single-opt">
+                    <img src="{{asset("img/buy-comics-shop-locator.png")}}" alt="">
+                    <span>Comic Shop Location</span>
+                </div>
+    
+                <div class="single-opt">
+                    <img src="{{asset("img/buy-dc-power-visa.svg")}}" alt="">
+                    <span>DC Power Visa</span>
+                </div>
+
+            </div>
+
         </div>
         {{-- End Option --}}
-
-        
-
-    </div>
 
 @endsection

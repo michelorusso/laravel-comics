@@ -37,25 +37,25 @@
 
                     <ul class="menu">
 
-                        <li>Characters</li>
+                        <li><a href="#">Characters</a></li>
 
-                        <li id="active">Comics</li>
+                        <li><a id="active" href="#">Comics</a> </li>
 
-                        <li>movies</li>
+                        <li><a href="#">movies</a></li>
 
-                        <li>tv</li>
+                        <li><a href="#">tv</a></li>
 
-                        <li>games</li>
+                        <li><a href="#">games</a></li>
 
-                        <li>Collectibles</li>
+                        <li><a href="#">Collectibles</a></li>
 
-                        <li>videos</li>
+                        <li><a href="#">videos</a></li>
 
-                        <li>fans</li>
+                        <li><a href="#">fans</a></li>
 
-                        <li>news</li>
+                        <li><a href="#">news</a></li>
 
-                        <li>shop <i id="arrow" class="fas fa-sort-down"></i></li>
+                        <li><a href="#">shop <i id="arrow" class="fas fa-sort-down"></i></a></li>
 
                     </ul>
 

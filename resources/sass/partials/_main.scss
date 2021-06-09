@@ -61,9 +61,40 @@ main {
         border: none;
         margin-bottom: 25px;
     }
+
+    button:hover {
+        cursor: pointer;
+    }
 }
 
 // Option
 .option {
     background-color: $brand-primary-color;
+    padding: 25px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.single-opt {
+    width: 18%;
+    display: flex;
+    align-items: center;
+
+    span {
+        padding-left: 10px; 
+        color: white;
+    }
+
+    img {
+        height: 40px;
+        width: auto;
+    }
+}
+
+.single-opt:last-child img {
+    width: 50px;
 }

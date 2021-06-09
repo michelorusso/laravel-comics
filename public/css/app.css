@@ -57,6 +57,10 @@ nav {
   width: 5%;
 }
 
+.link a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
 .link #active {
   padding: 0;
   margin: 0 15px;
@@ -153,7 +157,129 @@ main {
   border: none;
   margin-bottom: 25px;
 }
+.click button:hover {
+  cursor: pointer;
+}
 
 .option {
   background-color: #0282f9;
+  padding: 25px;
+}
+.option .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.single-opt {
+  width: 18%;
+  display: flex;
+  align-items: center;
+}
+.single-opt span {
+  padding-left: 10px;
+  color: white;
+}
+.single-opt img {
+  height: 40px;
+  width: auto;
+}
+
+.single-opt:last-child img {
+  width: 50px;
+}
+
+.footer-link-container {
+  background-image: url(../img/footer-bg.jpg);
+  height: 300px;
+}
+.footer-link-container .container {
+  background-size: cover;
+  display: flex;
+}
+
+.footer-link {
+  width: 50%;
+  padding-top: 25px;
+}
+.footer-link h3 {
+  color: white;
+  font-size: 15px;
+}
+.footer-link .menu.big {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer-link .menu.big .type {
+  float: right;
+  width: calc( 100% / 3 );
+  padding: 0 10px;
+}
+.footer-link .menu.big .type.shop {
+  padding-top: 25px;
+}
+.footer-link li {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.footer-link li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.copyright {
+  padding-top: 20px;
+  font-size: 11px;
+  color: gray;
+  margin-bottom: 25px;
+}
+.copyright a {
+  text-decoration: none;
+  color: #0282f9;
+}
+
+.logo-footer {
+  width: 50%;
+  height: 300px;
+  background-image: url(../img/dc-logo-bg.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social {
+  background-color: #303030;
+  padding: 25px 0;
+}
+.social .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign button {
+  font-size: 11px;
+  color: white;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #0282f9;
+}
+.sign button:hover {
+  cursor: pointer;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+}
+.follow h4 {
+  color: #0282f9;
+  margin-right: 20px;
+}
+.follow li {
+  display: inline-block;
+  padding: 5px;
+}
+.follow li img {
+  width: 25px;
 }
