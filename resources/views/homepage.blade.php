@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('main-classes')
+    home-shop
+@endsection
+
 @section('main_content')
     
     <div class="container">
@@ -17,7 +21,10 @@
             <div class="single-comic">
 
                 <div class="poster">
-                    <a href=""><img src="{{$comic["thumb"]}}" alt="{{$comic["title"]}}"></a>
+                    <a href="{{ route('product', [
+                        'id' => $comic['id'],
+                    ]) }}">
+                    <img src="{{$comic["thumb"]}}" alt="{{$comic["title"]}}"></a>
                 </div>
 
                 {{-- title-comic --}}

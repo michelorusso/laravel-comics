@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  width: 50%;
+  margin: auto;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -103,7 +108,7 @@ nav {
   background-size: cover;
 }
 
-main {
+main.home-shop {
   background-color: #1c1c1c;
 }
 
@@ -187,6 +192,29 @@ main {
 
 .single-opt:last-child img {
   width: 50px;
+}
+
+.copertina {
+  background-color: #0282f9;
+  height: 50px;
+}
+.copertina img {
+  width: 130px;
+  border: 1px solid white;
+  position: relative;
+  left: 0;
+  top: -155px;
+}
+
+.details {
+  width: 70%;
+}
+.details h2 {
+  text-transform: uppercase;
+}
+
+.advertisment {
+  width: 30%;
 }
 
 .footer-link-container {

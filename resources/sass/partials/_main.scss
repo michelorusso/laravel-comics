@@ -1,4 +1,4 @@
-main {
+main.home-shop {
     background-color: #1c1c1c;
 }
 
@@ -97,4 +97,30 @@ main {
 
 .single-opt:last-child img {
     width: 50px;
+}
+
+// SINGLE PRODUCT
+.copertina {
+    background-color: $brand-primary-color;
+    height: 50px;
+
+    img {
+        width: 130px;
+        border: 1px solid white;
+        position: relative;
+        left: 0;
+        top: -155px;
+    }
+}
+
+.details {
+    width: 70%;
+
+    h2 {
+        text-transform: uppercase;
+    }
+}
+
+.advertisment {
+    width: 30%;
 }
