@@ -100,27 +100,166 @@ main.home-shop {
 }
 
 // SINGLE PRODUCT
-.copertina {
+.copertina-container {
     background-color: $brand-primary-color;
     height: 50px;
+    
+    .copertina {
+        position: relative;
+        left: 0;
+        top: -155px;
+        width: 130px;
+    }
+    
+    .gallery, 
+    .type {
+        background-color: lightseagreen;
+        color: white;
+        position: absolute;
+        text-align: center;
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+
+    .gallery {
+        width: 128px;
+        bottom: 1px;
+        left: 1px;
+    }
+
+    .type {
+        width: 55px;
+        top: 1px;
+        left: 1px;
+    }
 
     img {
         width: 130px;
         border: 1px solid white;
-        position: relative;
-        left: 0;
-        top: -155px;
+        
     }
 }
 
-.details {
-    width: 70%;
+// description-container
+.description-container {
+    display: flex;
+    padding: 35px 0;
+}
+
+.description-content {
+    width: 65%;
 
     h2 {
         text-transform: uppercase;
+        color: #08415e;
     }
 }
 
-.advertisment {
+.check {
+    background-color: #55ba59;
+    display: flex;
+    font-size: 12px;
+    border-bottom: 1px solid #49a04d;
+    margin-top: 15px;
+
+    .white {
+        color: white;
+    }
+
+    .green {
+        color: #a5f088;
+    }
+}
+
+.check-price {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 10px;
+}
+
+.aviable {
     width: 30%;
+    text-align: center;
+    border-left: 1px solid #49a04d;
+    padding: 10px;
+}
+
+.advertisment {
+    width: 35%;
+    text-align: right;
+
+    span {
+        text-transform: uppercase;
+        margin-right: 24px;
+        font-size: 12px;
+        color: rgb(82, 81, 81);
+    }
+
+    div {
+        width: 100%;
+
+        img {
+        width: 80%;
+        margin: auto
+        }
+    }
+
+
+    
+}
+
+.description {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+// info-details
+.info-details {
+    background-color: #f6f6f6;
+    padding-bottom: 20px;
+
+    .details-content {
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+
+        h5 {
+            color: #08415e;
+            font-size: 15px;
+        }
+
+        .writers {
+            width: 50%;
+            
+        }
+
+        .info {
+            width: 50%;
+            margin-left: 30px;
+        }
+    }
+
+    .box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px; 
+        border-bottom: 1px solid lightgray;
+        padding: 5px 0;
+    }
+
+    .subtitle {
+        color: #08415e;
+        width: 20%;
+    }
+
+    .dt {
+        color: $brand-primary-color;
+        width: 70%;
+    }
+
+    .dt.s {
+        width: 70%;
+        color: black;
+    }
 }

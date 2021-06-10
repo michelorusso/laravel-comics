@@ -194,27 +194,142 @@ main.home-shop {
   width: 50px;
 }
 
-.copertina {
+.copertina-container {
   background-color: #0282f9;
   height: 50px;
 }
-.copertina img {
-  width: 130px;
-  border: 1px solid white;
+.copertina-container .copertina {
   position: relative;
   left: 0;
   top: -155px;
+  width: 130px;
+}
+.copertina-container .gallery,
+.copertina-container .type {
+  background-color: lightseagreen;
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.copertina-container .gallery {
+  width: 128px;
+  bottom: 1px;
+  left: 1px;
+}
+.copertina-container .type {
+  width: 55px;
+  top: 1px;
+  left: 1px;
+}
+.copertina-container img {
+  width: 130px;
+  border: 1px solid white;
 }
 
-.details {
-  width: 70%;
+.description-container {
+  display: flex;
+  padding: 35px 0;
 }
-.details h2 {
+
+.description-content {
+  width: 65%;
+}
+.description-content h2 {
   text-transform: uppercase;
+  color: #08415e;
+}
+
+.check {
+  background-color: #55ba59;
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px solid #49a04d;
+  margin-top: 15px;
+}
+.check .white {
+  color: white;
+}
+.check .green {
+  color: #a5f088;
+}
+
+.check-price {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 10px;
+}
+
+.aviable {
+  width: 30%;
+  text-align: center;
+  border-left: 1px solid #49a04d;
+  padding: 10px;
 }
 
 .advertisment {
-  width: 30%;
+  width: 35%;
+  text-align: right;
+}
+.advertisment span {
+  text-transform: uppercase;
+  margin-right: 24px;
+  font-size: 12px;
+  color: #525151;
+}
+.advertisment div {
+  width: 100%;
+}
+.advertisment div img {
+  width: 80%;
+  margin: auto;
+}
+
+.description {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.info-details {
+  background-color: #f6f6f6;
+  padding-bottom: 20px;
+}
+.info-details .details-content {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+.info-details .details-content h5 {
+  color: #08415e;
+  font-size: 15px;
+}
+.info-details .details-content .writers {
+  width: 50%;
+}
+.info-details .details-content .info {
+  width: 50%;
+  margin-left: 30px;
+}
+.info-details .box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0;
+}
+.info-details .subtitle {
+  color: #08415e;
+  width: 20%;
+}
+.info-details .dt {
+  color: #0282f9;
+  width: 70%;
+}
+.info-details .dt.s {
+  width: 70%;
+  color: black;
 }
 
 .footer-link-container {
